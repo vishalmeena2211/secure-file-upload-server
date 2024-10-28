@@ -63,6 +63,18 @@ DELETE http://localhost:3000/api/delete/{filename}
     npm install
     ```
 
+
+## Environment Variables
+
+    Create a `.env` file in the root directory of your project and add the following variable:
+
+    ```
+    MONGO_URI=your_mongodb_connection_string
+    ```
+
+    Replace `your_mongodb_connection_string` with your actual MongoDB connection string.
+
+
 ## Usage
 
 1. Start the server:
